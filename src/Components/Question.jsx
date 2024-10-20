@@ -79,7 +79,7 @@ function Question() {
       >Next</button>
       </>}
       {result?<>
-        <h2 className='text-2xl font-bold text-green-800'>your score {score} out of {data.length}</h2>
+        <h2 className='text-xl font-bold text-green-800'>your score {score} out of {data.length}</h2>
         <button className='btn ml-20 mt-10 bg-blue-950 text-white rounded-md pt-2 pb-2 pl-5 pr-5 md:ml-32'
         onClick={reset}
         >reset</button>
