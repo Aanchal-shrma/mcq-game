@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(2, 2, 52);
+    width: full;
+    max-width: 100%;
+    height: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.correct{
+    background-color: rgba(172, 255, 47, 0.999);
+    border-color: rgba(172, 255, 47, 0.999);
+}
+.wrong{
+    background-color: red;
+    border-color: red;
+}
+
